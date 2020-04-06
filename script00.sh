@@ -1,4 +1,5 @@
 #!/bin/bash 
 apt-get install cowsay -y
-./usr/games/cowsay GLOBANT2020
+cd /usr/games/
+./cowsay GLOBANT2020
 
