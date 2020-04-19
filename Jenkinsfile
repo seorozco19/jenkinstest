@@ -7,9 +7,9 @@ pipeline {
                 echo 'Building first Code..'
             }
         }
-        stage('Test') {
+        stage('test1') {
             steps {
-                echo 'Testing..'
+                echo 'Testing the code..'
             }
         }
         stage('Deploy') {
